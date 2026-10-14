@@ -2,7 +2,7 @@
 
 The original Python + PyOpenGL desktop app (`main.py`, `solar_orbit.py`), packaged with PyInstaller via `main.spec`.
 
-    pip install pyopengl glfw pyinstaller
+    pip install pyopengl glfw pillow numpy pyinstaller
     python main.py
     pyinstaller main.spec   # builds dist/JT_Solar_System.exe
 
